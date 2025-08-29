@@ -1,4 +1,4 @@
-# VL 6th Variable notes
+# SP 6th Variable notes
 
 # what is one way to give a program an output
 print("this is an output!")
