@@ -8,9 +8,9 @@ number = "7"
 
 print(number)
 
-number = "29"
+Number = "29"
 
-print(number)
+print(Number)
 
 breakfast = "Pancakes, Eggs, and Hashbrowns"
 
