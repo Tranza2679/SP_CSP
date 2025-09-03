@@ -32,6 +32,6 @@ age = "Fourteen"
 
 print(age)
 
-favorite_subject = input("what is your favorite subject?")
+favorite_subject = "chemistry"
 
 print(favorite_subject)
