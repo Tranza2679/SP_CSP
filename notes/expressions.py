@@ -20,13 +20,24 @@ average_2 = average_1 /4
 print("The average age between:", age_1,"," , age_2,"," , age_3,"and", age_4, "=" ,average_2)
 
 #Math equations
-num_1 = 12
-num_2 = 8
+num_1 = float(input("give me a variable:\n"))
+num_2 = int(input("give me a number:\n"))
 
-print("addition:" ,num_1 + num_2)
-print("subtraction:" ,num_1 - num_2)
-print("multiplication:" ,num_1 * num_2)
-print("division:", num_1 / num_2)
-print("exponents:", num_1 ** num_2)
-print("interger division:", num_1 // num_2)
-print("modulo (remainder):", num_1 % num_2)
+num_1 += num_2
+print("addition (+):" ,round(num_1, 0))
+num_1 -= num_2
+print("subtraction (-):" ,num_1)
+num_1 *= num_2
+print("multiplication(*):" ,num_1)
+num_1 /= num_2
+print("division(/):", round(11, 3))
+num_1 **= num_2
+print("exponents(**):", num_1)
+num_1 //= num_2
+print("interger division(//):", num_1)
+num_1 %= num_2
+print("modulo (remainder)(%):", num_1)
+
+print("3*5**2/15)-(5-2**2)", (3*5**2/15)-(5-2**2))
+#intergers is a data type in python only able to hold whole numbers while floats can hold decimals
+
