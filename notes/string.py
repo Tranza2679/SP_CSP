@@ -13,3 +13,6 @@ print("welcome to my program",full_name + "!")
 #strip removes any unnecessary spaces and upper turns every letter upper case and .lower turns everything lowercase, captialzie turns the first letter upper case, title turns the first letter of every word into uppercase
 
 # Debugging is fixing problems in my code!
+#Syntax error
+#logic erro
+#Run-time error
