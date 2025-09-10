@@ -39,7 +39,7 @@ monthly_transporttwo = monthly_transportone
 monthly_transporttwo /= monthly_income
 monthly_transporttwo *= 100
 
-print("Your monthly transport is",monthly_transport,"This is",monthly_transporttwo,"% of your income")
+print("Your monthly transport is",monthly_transport,"This is",round(monthly_transporttwo),"% of your income")
 
 monthly_incomeone = monthly_income - monthly_rent - monthly_utilities - monthly_groceries - monthly_transport
 print("You will have $",monthly_incomeone,"To spend every month!")
