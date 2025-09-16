@@ -32,8 +32,7 @@ quest = input("What is your quest?")
 color = input("What is your favorite color?")
 
 print(f"Hello, {clean(name)}. I have heard you are trying to {clean(quest)}, that is super cool! Are you sure {clean(color)} is your favorite color?")
-
- def believe(sentence):
+def believe(sentence):
    length = len(sentence)
    spot_one = random.randint(0, length - 1)
    spot_two = random.randint(0, length - 1)
@@ -45,6 +44,6 @@ print(f"Hello, {clean(name)}. I have heard you are trying to {clean(quest)}, tha
    sentence = full_sentence.join("")
    return sentence
 
-new_senetnce = believe("This quick brown fox jumps over the lazy dog!")
+new_sentence = believe("This quick brown fox jumps over the lazy dog!")
 print(new_sentence)
 print
