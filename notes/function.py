@@ -13,7 +13,7 @@ print(f"The function is over!")
 welcome()
 
 
-def add(number,numer_two): #parameters are given when we define the function 
+def add(number,num_two): #parameters are given when we define the function 
     number =number + num_two
     print(number)
 
