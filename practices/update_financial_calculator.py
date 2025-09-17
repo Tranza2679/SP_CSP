@@ -28,6 +28,3 @@ print(f"Your monthly groceries are {groceries} and it is {calculate(groceries)}%
 calculate(transport)
 print(f"Your monthly transport is {transport} and it is {calculate(transport)}% of your income")
 print("Thank you for using Financial calculator!")
-
-
-
