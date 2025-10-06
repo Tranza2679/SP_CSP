@@ -18,7 +18,8 @@ int main(void){
 
     printf("tell me your letter grade: ");
     scanf("%c", &grade);
-
+    while (getchar()!= '\n');
+    
     printf("tell me a number: ");
     scanf("%d", &num);
 
