@@ -11,7 +11,7 @@ int main(void){
     printf("8/3 = %2.2f\n", 8/3.0);
     printf("2 ^ 4 = %d\n", (int)pow(2, 4));
 
-    print("%f", 2.4+5);
+    printf("%f", 2.4+5);
     year += 1;
     year ++; 
     
