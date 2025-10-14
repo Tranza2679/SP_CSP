@@ -1,6 +1,7 @@
 {
     "files.associations": {
-        "variable.C": "cpp"
+        "variable.C": "cpp",
+        "typeinfo": "c"
     },
     "C_Cpp.default.compilerPath": "C:/msys64/ucrt64/bin/gcc.exe",
     "python-envs.defaultEnvManager": "ms-python.python:system",
