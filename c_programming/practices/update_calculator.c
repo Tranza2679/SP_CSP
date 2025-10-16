@@ -28,12 +28,12 @@ int main(void){
     float precentage_groceries = find_percentage(monthly_groceries, monthly_income);
     float precentage_transport = find_percentage(monthly_transport, monthly_income);
     float final_amount = monthly_income - monthly_rent - monthly_utilities - monthly_transport - monthly_groceries;
-    printf("Your monthly rent is %f and it is %f%% of your income!\n", monthly_rent, precentage_rent);
-    printf("Your monthly utility cost is %f and it is %f%% of your income!\n", monthly_utilities, precentage_utilities);
-    printf("Your monthly rent is %f and it is %f%% of your income!\n", monthly_groceries, precentage_groceries);
-    printf("Your monthly rent is %f and it is %f%% of your income!\n", monthly_transport, precentage_transport);
-    printf("You shoud save at least %f and that is 10%% of your income!\n", precentage_income);
-    printf("You have %f to spend every month!\n", final_amount);
+    printf("Your monthly rent is %2.2f and it is %2.2f%% of your income!\n", monthly_rent, precentage_rent);
+    printf("Your monthly utility cost is %2.2f and it is %2.2f%% of your income!\n", monthly_utilities, precentage_utilities);
+    printf("Your monthly rent is %2.2f and it is %2.2f%% of your income!\n", monthly_groceries, precentage_groceries);
+    printf("Your monthly rent is %2.2f and it is %2.2f%% of your income!\n", monthly_transport, precentage_transport);
+    printf("You shoud save at least %2.2f and that is 10%% of your income!\n", precentage_income);
+    printf("You have %2.2f to spend every month!\n", final_amount);
   
     return 0;
 }
